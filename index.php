@@ -81,11 +81,18 @@
                 data: arr,
                 dataType: 'json',
                 success: function(data) {
-                    if ($('form')[0].reset()) {
-                        console.log(data);
+                    console.log(data);
+                    
+                        if(data.win==true){
+                            alert('Congratulations! You Won');
+                        }
+                        else{
+                            alert('Sorry. Better luck next time');
+                        }
+                        
 
-                    }
-                    alert('Successfully Added!');
+                   
+                  
                 }
             });
 

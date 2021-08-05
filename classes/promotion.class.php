@@ -46,7 +46,7 @@ class Promotion
         } else {
             $message = "Error: " . $sql . "<br>" . $this->conn->error;
         }
-        return json_encode(array('message' => $message));
+        return json_encode(array('message' => $message,'win'=>$win));
     }
 
     public function getWinningMoment()

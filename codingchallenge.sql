@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 05, 2021 at 01:53 PM
+-- Generation Time: Aug 05, 2021 at 02:19 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -81,7 +81,7 @@ ALTER TABLE `mechanics_table`
 -- AUTO_INCREMENT for table `entrant_table`
 --
 ALTER TABLE `entrant_table`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `mechanics_table`
